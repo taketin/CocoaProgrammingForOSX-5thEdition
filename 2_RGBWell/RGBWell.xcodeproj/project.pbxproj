@@ -12,6 +12,7 @@
 		732C38401AF36A830020D8B9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732C383E1AF36A830020D8B9 /* MainMenu.xib */; };
 		732C384C1AF36A840020D8B9 /* RGBWellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C384B1AF36A840020D8B9 /* RGBWellTests.swift */; };
 		732C38561AF36BBE0020D8B9 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C38551AF36BBE0020D8B9 /* MainWindowController.swift */; };
+		732C38581AF36C9A0020D8B9 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732C38571AF36C9A0020D8B9 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		732C384A1AF36A840020D8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		732C384B1AF36A840020D8B9 /* RGBWellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBWellTests.swift; sourceTree = "<group>"; };
 		732C38551AF36BBE0020D8B9 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		732C38571AF36C9A0020D8B9 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				732C38551AF36BBE0020D8B9 /* MainWindowController.swift */,
+				732C38571AF36C9A0020D8B9 /* MainWindowController.xib */,
 				732C38371AF36A830020D8B9 /* RGBWell */,
 				732C38481AF36A840020D8B9 /* RGBWellTests */,
 				732C38361AF36A830020D8B9 /* Products */,
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				732C383D1AF36A830020D8B9 /* Images.xcassets in Resources */,
+				732C38581AF36C9A0020D8B9 /* MainWindowController.xib in Resources */,
 				732C38401AF36A830020D8B9 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +404,7 @@
 				732C38511AF36A840020D8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		732C38521AF36A840020D8B9 /* Build configuration list for PBXNativeTarget "RGBWellTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				732C38541AF36A840020D8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
