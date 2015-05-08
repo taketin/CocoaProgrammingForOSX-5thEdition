@@ -6,7 +6,10 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MainWindowController" customModule="RGBWell" customModuleProvider="target">
             <connections>
+                <outlet property="bSlider" destination="dtm-Ba-LEs" id="bTS-Sg-fVV"/>
                 <outlet property="colorWell" destination="0ba-x4-Ol5" id="vcn-aP-eMx"/>
+                <outlet property="gSlider" destination="2bg-bM-Aod" id="oAF-db-8sY"/>
+                <outlet property="rSlider" destination="Zht-mu-D0V" id="p4O-Hb-EHc"/>
                 <outlet property="window" destination="Yd8-31-csI" id="FFE-87-DMk"/>
             </connections>
         </customObject>
